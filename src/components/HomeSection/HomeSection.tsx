@@ -17,7 +17,7 @@ export default function HomeSection() {
                 <div className="col-span-2 flex flex-col justify-around h-full">
 
                     <div className="">
-                        <h1 className="text-[60px] font-extrabold mb-5">Full Stack Web Developer</h1>
+                        <h1 className="shadow-2xl text-[60px] font-extrabold mb-5">Full Stack Web Developer</h1>
                         <p className="text-justify mb-4">Hola, soy Lucas Ribotta, un desarrollador apasionado y comprometido, interesado por nuevas tecnologías, ubicado en Córdoba,Argentina, siempre en busca de innovación y aprendizaje continuo.</p>
                     </div>
 
@@ -41,7 +41,7 @@ export default function HomeSection() {
                     </div>
 
                 </div>
-                <Image src={imageProfile} alt="imageProfile" className="h-[300px] w-[300px] object-cover m-[1.5rem] rounded-xl" />
+                <Image src={imageProfile} alt="imageProfile" className="h-[300px] w-[300px] object-cover m-[1.5rem] rounded-xl shadow-2xl shadow-slate-300" />
             </div>
             <div className="w-[70%] pt-20 flex flex-wrap items-center">
                 <h2 className="font-bold">Tecnologias:</h2>

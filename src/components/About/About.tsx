@@ -3,7 +3,7 @@ import Desarrollador from '../../assets/AboutImg.jpg'
 
 export default function About() {
   return (
-    <div className='min-h-[70vh] flex flex-col-reverse mx-3 lg:grid lg:grid-cols-2 bg-white items-center rounded-[50px] overflow-hidden mt-[100px] shadow-lg shadow-slate-800' id="about">
+    <div className='min-h-[70vh] flex flex-col-reverse mx-3 lg:grid lg:grid-cols-2 bg-white items-center rounded-[50px] overflow-hidden mt-[100px] shadow-lg shadow-slate-900' id="about">
       <div className='p-16 flex flex-col justify-around h-full items-start'>
         <h2 className='text-violet-800 font-extrabold'>ACERCA DE MI</h2>
         <h3 className='font-semibold text-xl'>Un dedicado desarrollador Full Stack ubicado en Córdoba, Argentina</h3>

@@ -5,10 +5,10 @@ import { projects } from '../../data'
 
 const Projects = () => {
   return (
-    <div className="pt-[3rem] mt-[4rem] px-3 bg-white text-black rounded-[50px] shadow-lg shadow-slate-800" id="projects">
+    <div className="pt-[3rem] mt-[4rem] px-3 bg-white text-black rounded-[50px] shadow-lg shadow-slate-900" id="projects">
       <div className='flex flex-col '>
         <h2 className='text-violet-800 font-bold '>PORTFOLIO</h2>
-        <p className='mt-8 mb-[0.5rem] font-medium '>Les presento los proyectos en los que participe.</p>
+        <p className='mt-8 font-medium '>Les presento los proyectos en los que participe.</p>
       </div>
       {projects?.map((el, index) => <Card key={index} title={el.title} description={el.description} image={el.image} TechStack={el.TechStack} page={el.page} code={el.code} direction={index % 2 === 0 ? false : true} />)}
     </div>
