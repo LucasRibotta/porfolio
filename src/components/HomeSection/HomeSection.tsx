@@ -18,7 +18,7 @@ export default function HomeSection() {
 
                     <div className="">
                         <h1 className="shadow-2xl text-[60px] font-extrabold mb-5">Full Stack Web Developer</h1>
-                        <p className="text-justify mb-4">Hola, soy Lucas Ribotta, un desarrollador apasionado y comprometido, interesado por nuevas tecnologías, ubicado en Córdoba,Argentina, siempre en busca de innovación y aprendizaje continuo.</p>
+                        <p className="text-start mb-4">Hola, soy Lucas Ribotta, un desarrollador apasionado y comprometido, interesado por nuevas tecnologías, ubicado en Córdoba,Argentina, siempre en busca de innovación y aprendizaje continuo.</p>
                     </div>
 
                     <div className="flex gap-4 text-white">
