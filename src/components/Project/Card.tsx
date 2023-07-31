@@ -15,11 +15,11 @@ export type CardProps = {
 const Card = (props: CardProps) => {
     const { title, image, description, TechStack, page, code, direction } = props
     return (
-        <div className={`flex mt-14 w-full h-[400px] bg-transparent rounded-3xl p-10 drop-shadow-lg ${direction ? "flex-row" : "flex-row-reverse"}`}>
-            <div>
+        <div className={`flex flex-col mt-14 w-full h-auto md:h-auto lg:h-[650px] 2xl:h-[500px] bg-transparent rounded-3xl p-10 drop-shadow-lg ${direction ? "lg:flex-row" : "lg:flex-row-reverse"}`}>
+            <div className='w-full h-auto md:h-auto lg:h-[650px] 2xl:h-[500px]'>
                 <img src={image} alt={image} />
             </div>
-            <div className={'flex flex-col items-center '}>
+            <div className={'flex flex-col items-center lg:w-[70%] xl:w-[50%] mt-10'}>
                 <h2>{title}</h2>
                 <p>{description}</p>
 
