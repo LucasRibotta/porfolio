@@ -1,25 +1,18 @@
 import React from 'react'
+import Card from './Card'
+import { projects } from '../../data'
 
-export default function Project() {
-  const projects = [
-    project = {
-      name: name,
-      info: info,
-      link : url,
-      img : img,
-    }
-  ]
+
+const Projects = () => {
   return (
-    <div>
-      <h1>Poryectos</h1>
-      <h2>algun sub titulo</h2>
-      <div>
-        <h1>project</h1>
+    <div className="pt-[3rem] mt-[4rem] px-3 bg-white text-black rounded-[50px] shadow-lg shadow-slate-800" id="projects">
+      <div className='flex flex-col '>
+        <h2 className='text-violet-800 font-bold '>PORTFOLIO</h2>
+        <p className='mt-8 mb-[0.5rem] font-medium '>Les presento los proyectos en los que participe.</p>
       </div>
-
-      <div>
-        <h1>project2</h1>
-      </div>
+      {projects?.map((el, index) => <Card key={index} title={el.title} description={el.description} image={el.image} TechStack={el.TechStack} page={el.page} code={el.code} direction={index % 2 === 0 ? false : true} />)}
     </div>
   )
 }
+
+export default Projects
