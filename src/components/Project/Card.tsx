@@ -20,7 +20,7 @@ const Card = (props: CardProps) => {
                 <img src={image} alt={image} />
             </div>
             <div className={'flex flex-col items-center lg:w-[70%] xl:w-[50%] mt-10'}>
-                <h2>{title}</h2>
+                <h2 className='text-violet-900 mb-[1rem]'>{title}</h2>
                 <p>{description}</p>
 
                 <div className='flex flex-wrap gap-5 items-center mt-14'>
