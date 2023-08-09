@@ -10,7 +10,7 @@ export default function About() {
         <p className='text-start'>
           Como desarrollador Full Stack altamente competente, tengo un profundo conocimiento en una amplia variedad de tecnologías. Mi experiencia incluye dominio en <b>React, Redux, JavaScript, TypeScript, Next.Js, Express, Sequelize, PostgreSQL, MongoDB, CSS, HTML, Git, Tailwind y Node.Js</b> . Mi pasión por la creación de soluciones innovadoras se ve reflejada en mi habilidad para diseñar y desarrollar aplicaciones web sofisticadas, asegurando un rendimiento óptimo y una experiencia excepcional para el usuario en cada proyecto. Con un enfoque proactivo y sólidas habilidades analíticas, me esfuerzo por superar los desafíos técnicos y entregar productos de alta calidad que satisfagan las necesidades de mis clientes.
           ¡Estoy aquí para ayudarte con cualquier pregunta o problema relacionado con el desarrollo!</p>
-        <a href='https://drive.google.com/file/d/1TvAnAWodK8RMLSlyk-FpoC-P_9Rn1vkT/view?usp=sharing' className='mt-[1rem] px-6 py-3 bg-violet-900 font-semibold text-white rounded-md hover:bg-violet-600 hover:text-violet-900 transition-all duration-300 ' target='blank' >Curriculum</a>
+        <a href='https://drive.google.com/file/d/1V39_MOtZ_S2ozXJYk6Hjz-3NYapcIVqK/view?usp=sharing' className='mt-[1rem] px-6 py-3 bg-violet-900 font-semibold text-white rounded-md hover:bg-violet-600 hover:text-violet-900 transition-all duration-300 ' target='blank' >Curriculum</a>
       </div>
       <Image src={Desarrollador} alt="compu" className='h-[80%] rounded-3xl pr-[1.5rem] animate-flip-up animate-once ' />
     </div>
