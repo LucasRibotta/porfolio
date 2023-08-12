@@ -5,8 +5,8 @@ import { projects } from '../../data'
 
 const Projects = () => {
   return (
-    <div className="pt-[3rem] mt-[4rem] px-3 bg-white text-black rounded-[50px] shadow-lg shadow-slate-900" id="projects">
-      <div className='flex flex-col '>
+    <div className="pt-[3rem] mt-[4rem] mx-3 sm:mx-auto md:mx-auto bg-white text-black rounded-[50px] shadow-lg shadow-slate-900" id="projects">
+      <div className='flex flex-col ml-2 '>
         <h2 className='text-violet-800 font-bold '>PORTFOLIO</h2>
         <p className='mt-8 font-medium '>Les presento los proyectos en los que participe.</p>
       </div>
