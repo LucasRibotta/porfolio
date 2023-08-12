@@ -12,7 +12,7 @@ export default function About() {
           ¡Estoy aquí para ayudarte con cualquier pregunta o problema relacionado con el desarrollo!</p>
         <a href='https://drive.google.com/file/d/1V39_MOtZ_S2ozXJYk6Hjz-3NYapcIVqK/view?usp=sharing' className='mt-[1rem] px-6 py-3 bg-violet-900 font-semibold text-white rounded-md hover:bg-violet-600 hover:text-violet-900 transition-all duration-300 ' target='blank' >Curriculum</a>
       </div>
-      <Image src={Desarrollador} alt="compu" className='h-[80%] rounded-3xl pr-[1.5rem] animate-flip-up animate-once ' />
+      <Image src={Desarrollador} alt="compu" className='h-[70%] rounded-lg md:m-auto animate-flip-up animate-once ' />
     </div>
   )
 
