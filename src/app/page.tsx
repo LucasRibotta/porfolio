@@ -10,7 +10,7 @@ export default function Home() {
 
       <NavBar />
 
-      <div className='container m-auto px-20'>
+      <div className='container m-auto px-7'>
 
         <HomeSection />
         <About />
