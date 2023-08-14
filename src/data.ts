@@ -1,5 +1,13 @@
 const projects = [
     {
+        title: "Music App",
+        description: "Proyecto Music. Se diseño una página web de musica y cursos que ofrece el musico Micael Cobaski.",
+        image: "https://i.pinimg.com/736x/36/e2/85/36e2856380b02cc7fddd613f124ecb84.jpg",
+        TechStack: ["NextJs", "TypeScript", "Tailwind"],
+        page: "https://miki-web.vercel.app/",
+        code: "https://github.com/xxnahokxx/music-web",
+    },
+    {
         title: "Parcels",
         description: "Proyecto final Henry: Nuestro proyecto consiste en una plataforma de e- commerce especializada en la venta de parcelas, brindando a nuestros usuarios la oportunidad de encontrar el terreno perfecto para sus proyectos o inversiones. Utilizamos una sólida pila tecnológica que incluye NextJs, Redux Toolkit, TypeScript, MongoDB, Mongoose Cloudinary, Api Google Maps.",
         image: "https://parcelas.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FhomeLogo.729be7b9.png&w=1920&q=75",
