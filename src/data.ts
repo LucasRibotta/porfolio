@@ -1,5 +1,13 @@
 const projects = [
     {
+        title: "IntranetSOS",
+        description: "Página web desarrollada para la empresa S.O.S Red de Asistencia. La misma se basa en un Intranet donde se guarda toda la información de las tres áreas de la empresa, mostrando los diversos procediminetos, herramientas para ayudar a los operadores a mejorar en su trabajo y agilizar el mismo.",
+        image: "https://res.cloudinary.com/parcelas/image/upload/v1695347476/IntranetSOS_ak5hdq.jpg",
+        TechStack: ["ReactJS", "JavaScript", "Bootstrap"],
+        page: "https://intranetsos.vercel.app/",
+        code: "https://github.com/LucrePierna/intranetsos/tree/main/Client",
+    }, 
+    {
         title: "Music App",
         description: "Proyecto Music. Se diseño una página web de musica y cursos que ofrece el musico Micael Cobaski.",
         image: "https://i.pinimg.com/564x/6f/51/f9/6f51f9742b0adda9dd0d1d54aa4c9092.jpg",
